@@ -1,8 +1,11 @@
 import React, { useState } from "react";
+import { Link, useLocation } from 'react-router-dom';
 import './NavBar.css';
 
 function NavBar() {
-    const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
+  const isHomePage = location.pathname === '/';
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -11,56 +14,47 @@ function NavBar() {
   return (
     <section id="header">
       <div>
-        <div className="header container">
+        <div className="header container-fluid">
           <div className="nav-bar">
             <div className="brand">
-              <a href="#hero">
+              <Link to="/">
                 <h1>
                   <span> T</span>
-                  umi 
+                  umi
                   <span> M</span>
                   ashigo
                 </h1>
-              </a>
+              </Link>
             </div>
 
             <div
-            className={`nav-list ${isOpen ? "open" : ""}`}
-            onClick={toggleMenu}
-          >
+              className={`nav-list ${isOpen ? "open" : ""}`}
+              onClick={toggleMenu}
+            >
               <div className="hamburger">
                 <div className="bar"></div>
               </div>
 
               <ul>
                 <li>
-                  <a href="#hero" data-after="Home">
-                    Home
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#services" data-after="Service">
+                  <Link to="/services" data-after="Service">
                     Services
-                  </a>
+                  </Link>
                 </li>
-
                 <li>
-                  <a href="#projects" data-after="Projects">
+                  <Link to="/projects" data-after="Projects">
                     Projects
-                  </a>
+                  </Link>
                 </li>
-
                 <li>
-                  <a href="#about" data-after="About">
+                  <Link to="/about" data-after="About">
                     About
-                  </a>
+                  </Link>
                 </li>
-
                 <li>
-                  <a href="#contact" data-after="Contact">
+                  <Link to="/contact" data-after="Contact">
                     Contact
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -68,23 +62,22 @@ function NavBar() {
         </div>
       </div>
 
-      <section id="hero">
-        <div className="hero container">
-          <div>
-            <h1 >Hello,</h1>
-            <h1 >My Name is</h1>
-            <h1 >Tumi</h1>
-
-            <a href="#projects" type="button" className="cta">
-              Portfolio
-            </a>
+      {isHomePage && (
+        <section id="hero">
+          <div className="hero container-fluid">
+            <div>
+              <h1>Hello,</h1>
+              <h1>My Name is</h1>
+              <h1>Tumi</h1>
+              <Link to="/Projects" type="button" className="cta">
+                Portfolio
+              </Link>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
     </section>
   );
 }
 
 export default NavBar;
-
-

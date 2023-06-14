@@ -16,7 +16,7 @@
     
 }
 
-.container {
+.container-fluid {
     width: 100%;
     display: flex;
     align-items: center;
@@ -38,11 +38,12 @@ a {
 }
 
 .brand h1 {
-    font-size: 3rem;
+    
     text-transform: uppercase;
     color: white;
     width: 160%;
     text-align: initial;
+    margin-left: -95%;
 }
 
 .brand h1 span {
@@ -168,7 +169,7 @@ li {
     justify-content: flex-start;
 }
 
-.container {
+.container-fluid {
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -267,7 +268,53 @@ a {
     color:#fff;
 }
 
+.brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .brand a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+  
+  .brand h1 {
+    margin: 0;
+    padding-left: 10px;
+  }
+  
+  .brand span {
+    display: none;
+  }
+  
+  @media (min-width: 768px) {
+    .brand span {
+      display: inline;
+    }
+  }
 
+  @media (max-width: 767px) {
+    .brand span {
+      display: inline;
+    }
+  }
+
+  /* @media (min-width: 1200px) {
+    .brand a {
+      display: none;
+    }
+  } */
+
+  @media (min-width: 1200px) {
+    .brand a {
+      display: inline;  
+      margin-left: -250%;
+    }
+}
 
 
 @media only screen and (min-width: 1200px){
@@ -276,6 +323,7 @@ a {
         display: block;
         height: auto;
         background-color: transparent;
+        margin-left: -15%;
 }
 
 }
@@ -292,3 +340,5 @@ a {
         display: none;
     }
 }
+
+
