@@ -3,8 +3,8 @@ import './Projects.css';
 
 const projects = [
   {
-    name: 'Project 1',
-    description: 'A description of your project.',
+    name: 'Product Catalog React Application',
+    description: 'A responsive React application that allows users to browse and search a catalog of products fetched from an API.Technologies used: React, JavaScript, HTML, CSS, Bootstrap, Axios, and a Products API. Features: User-friendly interface that displays product information such as name, price, image, and description. Search functionality that allows users to filter products by keyword and/or category. Pagination that enables users to navigate through multiple pages of products. Error handling and loading states to improve user experience. Accomplishments: Successfully implemented a complex front-end design using React and Bootstrap, with a responsive and accessible UI. Improved my skills in working with APIs, handling asynchronous requests with Axios and integrating the responses into my React components. Increased my familiarity with React hooks and state management.',
     link: '#'
   },
   {
@@ -21,8 +21,8 @@ const projects = [
 
 const githubRepos = [
   {
-    name: 'Repo 1',
-    link: 'https://github.com/your-username/repo1'
+    name: 'Product Catalog React Application Repo',
+    link: 'https://github.com/TumiDev10/My-Store-React-Application'
   },
   {
     name: 'Repo 2',
@@ -45,8 +45,9 @@ function Projects() {
         {projects.map((project, index) => (
           <div className="project-card" key={index}>
             <h2>{project.name}</h2>
-            <p>{project.description}</p>
-            <a href={project.link}>View Project</a>
+            <p style={{textAlign: "start", fontWeight: "initial"}}>{project.description}</p>
+            <a style={{fontSize: 'xx-large'}} href={project.link}>View Project</a>
+    
           </div>
         ))}
       </div>
