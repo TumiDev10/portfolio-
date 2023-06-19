@@ -112,7 +112,7 @@ function Projects() {
         
         {projects.map((project, index) => (
           <div className="project-card" key={index}>
-            <h2 style={{marginBottom: '4%'}}>{project.name}</h2>
+            <h2 style={{marginBottom: '4%', color: 'black'}}>{project.name}</h2>
             <p>{project.description}</p>
             
             {project.images && project.images.length > 0 && (

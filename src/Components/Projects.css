@@ -104,6 +104,7 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    color: black
   }
   
   .slideshow-image {
@@ -127,10 +128,12 @@
   
   .slideshow-previous {
     left: 10px;
+    color: black
   }
   
   .slideshow-next {
     right: 10px;
+    color: black
   }
 
   .view-project-btn{

@@ -8,7 +8,7 @@ function Contact(){
             <div>
                 <h1 style={{color: 'black', marginTop:'30%'}} class="section-title">
                     Contact 
-                    <span style={{color: 'crimson'}}>info</span>
+                    <span style={{color: 'crimson'}}> info</span>
                 </h1>
             </div>
             <div class="contact-items">
