@@ -36,7 +36,13 @@ function NavBar() {
               </div>
 
               <ul>
+              <li>
+                  <Link to="/about" data-after="About">
+                    About
+                  </Link>
+                </li>
                 <li>
+                    
                   <Link to="/services" data-after="Service">
                     Services
                   </Link>
@@ -46,11 +52,7 @@ function NavBar() {
                     Projects
                   </Link>
                 </li>
-                <li>
-                  <Link to="/about" data-after="About">
-                    About
-                  </Link>
-                </li>
+                
                 <li>
                   <Link to="/contact" data-after="Contact">
                     Contact
