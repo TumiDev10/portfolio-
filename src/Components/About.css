@@ -105,9 +105,9 @@ a {
     text-decoration: none;
 }
 
-/* @media only screen and (min-width: 768px)
+@media only screen and (min-width: 768px)
 {
     #about .about {
     flex-direction: row;
 }
-} */
+}

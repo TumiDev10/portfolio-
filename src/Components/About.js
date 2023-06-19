@@ -7,7 +7,7 @@ function About() {
         <section id="about">
             <div class="about container">
                 <div class="col-left">
-                    <div class="about-img">
+                    <div  class="about-img">
                         <img src={img}></img>
                     </div>
                 </div>
@@ -17,17 +17,10 @@ function About() {
                         <span style={{color: 'red'}}> me</span>
                     </h1>
                     <h2>FullStack Developer</h2>
-                    <p>
-                    My name is Tumi Mashigo, and I am a FullStack Software Developer with a passion for building innovative and robust applications. With a strong foundation in C#, Java, HTML, CSS, and JavaScript, I have honed my skills across a range of technologies.
-
-                    My initial focus was on back-end development, where I gained expertise in crafting efficient and scalable solutions. However, as my knowledge of the software development environment has grown, I have become increasingly interested in expanding my skill set.
-
-                    In my journey as a developer, I made a strategic decision to delve deeper into the world of front-end development, and that's when I discovered the power and versatility of React. I dedicated myself to mastering React and its ecosystem, including essential tools like React Router for seamless navigation and Redux Toolkit for efficient state management.
-
-                    To further enhance my skills and keep up with the ever-evolving tech landscape, I am currently immersing myself in learning React Native with Typescript. This combination allows me to leverage my existing knowledge of React to develop mobile applications for both iOS and Android platforms, while enjoying the benefits of type safety and enhanced development experience provided by Typescript.
-
-                    By continually expanding my expertise, I aim to create exceptional user experiences and deliver high-quality software solutions. I am excited to embrace new challenges, contribute to cutting-edge projects, and collaborate with talented individuals to shape the future of software development.
-                    </p>
+                    <p>My name is Tumi Mashigo, I am a FullStack Software Developer with a focus on back-end technology. I have a strong foundation in C#, Java, HTML, CSS, and JavaScript. However, I decided to specialize in React and its ecosystem, including React Router and Redux Toolkit. Currently, I am expanding my skills by learning React Native with Typescript. My goal is to create exceptional user experiences and contribute to innovative software solutions. I am eager to take on new challenges and collaborate with talented individuals in shaping the future of software development.</p>
+                    {/* <p>
+                        My name is Tumi Mashigo and I am a Junior software developer. My initial focus has been on back-end technology, but as my knowledge of the environment grows, I am interested in expanding my knowledge. I first built a solid foundation in C#, Java, HTML, CSS, JavaScript, and related technologies before deciding to focus on React as my chosen framework to study. This also included a detour via Router, Redux Toolkit, and Next.js. I'm learning Python right now, along with data structures and algorithms. 
+                    </p> */}
                     <a href="Tumi_Jaden Mashigo_Resume_28-09-2022-22-48-51.pdf" class="cta">Download Resume</a>
                 </div>
             </div>
