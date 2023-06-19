@@ -140,6 +140,7 @@
     width: 29%;
     padding: 4%;
     font-size: x-large;
+    border-radius: inherit;
   }
 
   .github-repos {
