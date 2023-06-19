@@ -8,7 +8,7 @@ function Services() {
             <section id="services">
                 <div class="services container">
                     <div class="service-top">
-                        <h1 style={{marginTop: '20%'}} class="section-title">
+                        <h1 style={{marginTop: '20%'}} class="section-title1">
                             Serv
                             <span>i</span>
                             ces
@@ -20,7 +20,7 @@ function Services() {
                     <div class="service-bottom">
                         <div class="service-item">
                             <div class="icon">
-                                <img src="https://img.icons8.com/bubbles/100/000000/services.png"></img>
+                                <img src="https://img.icons8.com/bubbles/100/000000/services.png" alt="icon"></img>
 
                             </div>
                             <h2>Captivating Front-end development</h2>
@@ -33,7 +33,7 @@ function Services() {
 
                         <div class="service-item">
                             <div class="icon">
-                                <img src="https://img.icons8.com/bubbles/100/000000/services.png"></img>
+                                <img src="https://img.icons8.com/bubbles/100/000000/services.png" alt="icon"></img>
                             </div>
                             <h2>Powerful Back-end Development:</h2>
                             <p>
@@ -46,7 +46,7 @@ function Services() {
 
                         <div class="service-item">
                             <div class="icon">
-                                <img src="https://img.icons8.com/bubbles/100/000000/services.png"></img>
+                                <img src="https://img.icons8.com/bubbles/100/000000/services.png" alt="icon"></img>
                             </div>
                             <h2>Efficient Database Management:</h2>
                             <p>
@@ -58,7 +58,7 @@ function Services() {
 
                         <div class="service-item">
                             <div class="icon">
-                                <img src="https://img.icons8.com/bubbles/100/000000/services.png"></img>
+                                <img src="https://img.icons8.com/bubbles/100/000000/services.png" alt="icon"></img>
                             </div>
                             <h2>Collaborative Version Control and Deployment:</h2>
                             <p>
@@ -70,7 +70,7 @@ function Services() {
 
                         <div class="service-item">
                             <div class="icon">
-                                <img src="https://img.icons8.com/bubbles/100/000000/services.png"></img>
+                                <img src="https://img.icons8.com/bubbles/100/000000/services.png" alt="icon"></img>
                             </div>
                             <h2>Effective Problem Solving and Troubleshooting:</h2>
                             <p>
