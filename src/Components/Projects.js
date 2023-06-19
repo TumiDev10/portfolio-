@@ -116,7 +116,7 @@ function Projects() {
             <p>{project.description}</p>
             
             {project.images && project.images.length > 0 && (
-              <button style={{marginTop: '4%'}} className="view-project-btn" onClick={() => openSlideshow(project.images)}>
+              <button style={{marginTop: '4%', color: 'black'}} className="view-project-btn" onClick={() => openSlideshow(project.images)}>
                 View Project
               </button>
              
@@ -126,7 +126,7 @@ function Projects() {
         ))}
       </div>
       <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-      <Footer githubRepos={githubRepos} />
+      <Footer style={{color: 'white'}} githubRepos={githubRepos} />
     </div>
   );
 }
