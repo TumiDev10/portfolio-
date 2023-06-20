@@ -7,6 +7,7 @@ import About from './Components/About';
 import Services from './Components/Services';
 import Projects from './Components/Projects';
 
+
 function App() {
   return (
     <Router>
@@ -17,6 +18,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/projects" element={<Projects />} />
+         
         </Routes>
       </div>
     </Router>

@@ -2,6 +2,7 @@ import React from "react";
 import './About.css';
 import img from '../images/about-me.jpg';
 
+
 function About() {
     return(
         <section id="about">
@@ -21,7 +22,7 @@ function About() {
                     {/* <p>
                         My name is Tumi Mashigo and I am a Junior software developer. My initial focus has been on back-end technology, but as my knowledge of the environment grows, I am interested in expanding my knowledge. I first built a solid foundation in C#, Java, HTML, CSS, JavaScript, and related technologies before deciding to focus on React as my chosen framework to study. This also included a detour via Router, Redux Toolkit, and Next.js. I'm learning Python right now, along with data structures and algorithms. 
                     </p> */}
-                    <a href="Tumi_Jaden Mashigo_Resume_28-09-2022-22-48-51.pdf" class="cta">Download Resume</a>
+                    <a href="https://flowcv.com/resume/7s2klloih0" class="cta">Download Resume</a>
                 </div>
             </div>
         </section>
